@@ -1,3 +1,5 @@
+import useButtonColor from "./useButtonColor"
+
 type buttonColor = 'orange' | 'grey'
 type buttonSize = 'standart' | 'fullWidth'
 
@@ -10,15 +12,7 @@ interface buttonProps {
 
 const Button = ({ color, children, disabled, size }: buttonProps) => {
 
-  let buttonColor;
-
-  if (color === 'grey') {
-    buttonColor = 'button_color_grey'
-  } else if (color === 'orange') {
-    buttonColor = 'button_color_orange'
-  } else {
-    buttonColor = ''
-  }
+  let buttonColor = useButtonColor(color)
 
   return (
     <button style={{ width: size === 'standart' ? '120px' : '100%' }} disabled={disabled} className={`button ${buttonColor}`}>{children}</button>

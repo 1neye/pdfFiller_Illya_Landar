@@ -19,7 +19,6 @@ const App = () => {
             <Button size={'standart'} color={'orange'}>Normal</Button>
             <Button disabled size={'standart'} color={'orange'}>Disabled</Button>
           </div>
-
         </div>
 
         <h1 style={{ textAlign: 'center', whiteSpace: 'nowrap' }}>Document List</h1>
@@ -29,9 +28,6 @@ const App = () => {
           <List heading={'Bubba Gump'} edited={'Last Edited: 08/08/2020'} />
           <List heading={'Lorem Ipsum is simplythe industry\'s dummy text of the printing and typesetting'} edited={'Last Edited: 08/08/2020'} />
         </ListContainer>
-
-
-
       </div>
     </div>
 
