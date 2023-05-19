@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# PDF Filler Illya Landar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Project url](https://pdf-filler-illya-landar.vercel.app/)\
+[Design & Requirements](https://www.figma.com/file/44w9zqoIQks8Fd2SBruynP/pdfFiller_UIDev_Test_Task?type=design&node-id=16-184&t=Snzfawylq6EDpXJb-0)\
+[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpdf-filler-illya-landar.vercel.app%2F)
+
 
 ## Available Scripts
 
